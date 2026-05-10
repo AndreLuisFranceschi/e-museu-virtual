@@ -1,3 +1,33 @@
+# 🎨 E-Museu Virtual
+
+Um projeto desenvolvido para criar uma experiência interativa de museu online, permitindo explorar obras de arte e conteúdos culturais de forma digital.
+
+## 🚀 Tecnologias utilizadas
+
+- React + Vite
+- JavaScript (ES6+)
+- CSS
+- Node.js
+
+## 📦 Como instalar e rodar
+
+1. Clone este repositório:
+   ```bash
+   git clone https://github.com/AndreLuisFranceschi/e-museu-virtual.git
+   ```
+2. Acesse a pasta do projeto:
+   ```bash
+   cd e-museu-virtual
+   ```
+3. Instale as dependências:
+   ```bash
+   npm install
+   ```
+4. Execute o projeto:
+   ```bash
+   npm run dev
+   ```
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
