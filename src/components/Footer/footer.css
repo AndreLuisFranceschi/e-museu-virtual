@@ -1,0 +1,66 @@
+footer {
+  background-color: #00510f;
+  color: #f2f2f2;
+  padding: 2rem 1rem;
+  font-size: 0.9rem;
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.institucional,
+.identidade {
+  flex: 1 1 300px;
+}
+
+.institucional h2 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.institucional address {
+  font-style: normal;
+  line-height: 1.6;
+  margin-bottom: 0.5rem;
+}
+
+.institucional a {
+  color: #f2f2f2;
+  text-decoration: underline;
+}
+
+.identidade {
+  flex: 1 1 200px;
+  text-align: center;
+}
+
+.identidade img {
+  width: clamp(70px, 6vw, 80px); /* menor amplitude de largura */
+  height: auto;
+  margin-bottom: 0.5rem;
+  opacity: 0.75; /* suaviza a imagem */
+  filter: grayscale(100%); /* deixa a logo mais neutra */
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.ano {
+  text-align: center;
+  font-size: 0.85rem;
+  padding-top: 2rem;
+  margin-top: 1rem;
+  color: white;
+  border-top: 1px dashed #f2f2f2;
+}

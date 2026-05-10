@@ -1,0 +1,142 @@
+.itemDetalhe-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-family: "Segoe UI", sans-serif;
+  color: #2c2c2c;
+  background-color: #fefefe;
+}
+
+.itemDetalhe-container h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  color: #3a3a3a;
+}
+
+.galeria-imagens {
+  margin-bottom: 2rem;
+}
+
+.galeria-imagens h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.imagens-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 1rem;
+}
+
+.imagem-item {
+  background-color: #f4f4f4;
+  padding: 0.75rem;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  text-align: center;
+}
+
+.imagem-item img {
+  max-width: 100%;
+  height: auto;
+  max-height: 200px;
+  object-fit: cover;
+}
+
+.data-upload {
+  font-size: 0.85rem;
+  color: #666;
+  margin-top: 0.5rem;
+}
+
+.info-equipamento {
+  background-color: #fafafa;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.info-equipamento p {
+  margin: 0.75rem 0;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.info-equipamento strong {
+  color: #444;
+}
+
+.mensagem-doador {
+  margin-top: 0.5rem;
+  font-style: italic;
+  color: #555;
+}
+
+.btn-voltar {
+  color: #fff;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.modal-backdrop {
+  position: fixed;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.modal-imagem {
+  position: relative;
+  max-width: 90%;
+  max-height: 90%;
+}
+
+.modal-imagem img {
+  border-radius: 8px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.3);
+  overflow-y: auto;
+  max-width: 100%;
+  max-height: 90vh;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+}
+
+.fechar-modal {
+  position: absolute;
+  top: -40px;
+  right: 0;
+  padding: 0.5rem 1rem;
+  font-weight: bold;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .itemDetalhe-container {
+    padding: 1rem;
+  }
+
+  .itemDetalhe-container h2 {
+    font-size: 1.5rem;
+  }
+
+  .info-equipamento p {
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .modal-imagem img {
+    max-width: 100%;
+    max-height: 70vh;
+  }
+}

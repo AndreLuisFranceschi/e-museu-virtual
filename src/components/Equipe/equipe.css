@@ -1,0 +1,22 @@
+.membros {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.card-adicionar {
+  color: #17882c;
+  cursor: pointer;
+  text-align: center;
+  padding: 1rem;
+  transition: transform 0.2s ease;
+}
+
+.card-adicionar h3 {
+  color: #000;
+}
+
+.card-adicionar:hover {
+  color: #00510f;
+}
